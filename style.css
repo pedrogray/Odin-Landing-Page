@@ -80,16 +80,17 @@ button {
     flex-direction:column;
     align-items:center;
     justify-content: center;
+    padding-bottom:100px;
 }
 
 .squares{
     display:flex;
 }
 
-.square {
+.shape {
     border:solid 5px #3882f6;
-    width:150px;
-    height:150px;
+    width:100px;
+    height:100px;
     margin:20px;
     padding:50px;
     border-radius: 10px;
@@ -99,4 +100,49 @@ h3 {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+}
+
+.square {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.square p {
+    margin-top: -10px;
+    font-size: 18px;
+    color: gray;
+    flex-wrap: wrap;
+    width:200px;
+}
+
+.quote-section {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    height: 350px;
+}
+
+.quote-container {
+    width:650px;
+}
+
+.quotee {
+    display:flex;
+    justify-content: right;
+    color: #1f2937;
+    font-size:20px;
+    font-weight: bold;
+    margin-right:40px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom:-50px;
 }
