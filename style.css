@@ -146,3 +146,43 @@ h3 {
     color: #1f2937;
     margin-bottom:-50px;
 }
+
+.call-to-action-section {
+    display:flex;
+    height:300px;
+    justify-content: center;
+    align-items:center;
+}
+
+.call-to-action {
+    height:100px;
+    width: 900px;
+    background-color: #3882f6;
+    display:flex;
+    padding:30px;
+    border-radius: 10px;
+    align-items:center;
+    justify-content: center;
+}
+
+.call-to-action-content {
+    display:flex;
+    flex-direction: column;
+    margin-right: 200px;
+}
+
+.call-to-action-header {
+    color:white;
+    font-size:18px;
+    font-weight: bold;
+}
+
+.call-to-action-text {
+    color:white;
+    font-size:16px;
+    margin-top:-15px;
+}
+
+.call-to-action-button {
+    border:solid white 1px;
+}
